@@ -37,6 +37,12 @@ Cały pomysł opiera się na wykorzystaniu tzw. bloków testowych jako określon
 \item MY\_SITE\_PAGE,dummy - przejście do strony Moja Witryna po zalogowaniu się do WordPress;
 \item MODIFY\_VISIBILITY,Private - zmiana widoczności bloga na prywatną; możliwość zmiany na Public, czyli każdy może widzieć bloga;
 \item CHECK\_VISIBILITY,Private - sprawdzenie na stronie, czy jest ona w trybie prywatnym, czyli czy pojawia się odpowiedni komunikat informujący o tym; 
+\item LOGIN\_TO\_SERVER,sylwia:sylwia - zalogowanie się na serwis WordPressa za pomocą użytkownika \textit{sylwia} oraz hasła \textit{sylwia};
+\item CHECK\_NEW\_PASSWORD,hasłoDoSprawdzenia - zbadanie, czy hasłoDoSprawdzenia może być zmienione jako nowe dla obecnego użytkownika;
+\item ADD\_POST,Post - dodanie postu o tytule Post i sprawdzenie, czy jest on na witrynie;
+\item DELETE\_POST,Post - usunięcie postu o tytule Post i sprawdzenie, czy nie ma go na witrynie;
+\item ACCEPT\_BUTTON,dummy - naciśnięcie na przycisk na dole ekranu Akceptuj;
+\item TAKE\_SCREENSHOT,bug - wykonuje zrzut ekranu w określonym momencie testu i zapisuje do katalogu jako \textit{bug.png}.
 \end{itemize}
 
 Warto wspomnieć, że gdy parametr nie jest potrzebny dla danego bloku, wtedy ma on wartość \textit{dummy}).
